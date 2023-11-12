@@ -1,0 +1,117 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Estilos para o cabeçalho */
+header {
+  background-color: green;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para o logo e nome */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Estilos para os botões */
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  background-color: floralwhite;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para links de navegação */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*Estilização do carrusel*/
+.carousel-container {
+    width: 100%;
+    max-width: 750px; /* Defina a largura máxima desejada para o carrossel */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    max-height: 800px; /* Defina a altura máxima desejada para os slides */
+    min-height: 500px;
+    padding-top: 30px;
+    display: none;
+  }
+  
+  .carousel-slide.active {
+    display: block;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
