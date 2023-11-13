@@ -1,45 +1,40 @@
-<link rel="stylesheet" href="Cadastro.html">
-<form class="row g-3">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
-    </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </div>
-  </form>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="body_cadastro">
+    <h1 class="h1_cadastro">Cadastro de Usuário</h1>
+    <div class="form_cadastro">
+      <form action="processar.php" method="POST">
+          <label for="nome_usuario">Nome de Usuário:</label>
+          <input type="text" id="nome_usuario" name="nome_usuario" required>
+          
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+          
+          <label for="regiao">Região onde mora:</label>
+          <input type="text" id="regiao" name="regiao" required>
+          
+          <label for="categoria">Categoria de Serviço:</label>
+          <select id="categoria" name="categoria">
+              <option value="Serviços">Serviços</option>
+              <option value="Ferramentas">Ferramentas</option>
+              <option value="Equipamentos">Equipamentos</option>
+              <option value="Livros">Livros</option>
+              <option value="Espaço comunitário">Espaço comunitário</option>
+              <option value="Orientação">Orientação</option>
+          </select>
+          
+          <label for="descricao">Descrição do Serviço/Produto:</label>
+          <textarea id="descricao" name="descricao" rows="4" required></textarea>
+          
+          <button class="button_cadastro" type="submit">Enviar</button>
+      </form>
+    </div>  
+</body>
+</html>
