@@ -115,7 +115,7 @@ header {
     right: 0;
   }
 
-  /*Estilização Cadastro*/
+  /*Estilização Oferecer*/
 
   .body_cadastro {
     font-family: Arial, sans-serif;
@@ -127,7 +127,7 @@ header {
 .h1_cadastro {
     text-align: center;
     color: #333;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 form {
@@ -136,7 +136,7 @@ form {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px green;
 }
 
 label {
@@ -157,10 +157,10 @@ textarea {
     resize: vertical;
 }
 
-.button_cadastro {
+.button_oferecer {
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #4CAF50; 
     color: #fff;
     padding: 10px;
     border: none;
@@ -170,11 +170,37 @@ textarea {
 }
 
 button:hover {
-    background-color: #555;
+  background-color: #45a049;
 }
-.form_cadastro{
-  padding-top: 80px;
+.form_oferecer{
+  padding-top: 150px;
 }
 .h4_index{
   color: #333;
+}
+.form_cadastro{
+  padding-top: 30px;
+}
+
+
+/* Estilização para um botão verde e centralizado */
+.button-green {
+  display: block;
+  width: 150px; 
+  margin: 0 auto; 
+  background-color: #4CAF50; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center; 
+}
+
+.button-green:hover {
+  background-color: #45a049;
+}
+.center_cadastro{
+  padding-top: 50px;
 }
