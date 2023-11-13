@@ -204,3 +204,23 @@ button:hover {
 .center_cadastro{
   padding-top: 50px;
 }
+
+.link_cadastro{
+  text-decoration: none;
+}
+
+
+/* Estilização para o botão */
+.meu-botao {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meu-botao:hover {
+  background-color: rgb(32, 32, 32);
+}
