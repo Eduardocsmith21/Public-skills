@@ -114,4 +114,40 @@ header {
   .carousel-control-next {
     right: 0;
   }
-  
+
+  /*Estilização Cadastro*/
+
+  /* Centralizar o formulário */
+.row.g-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Define a altura da tela inteira para centralizar verticalmente */
+}
+
+/* Estilização adicional para tornar o formulário mais atraente */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilização para a caixa de seleção */
+.form-check-input {
+  margin-right: 5px;
+}
