@@ -22,6 +22,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  padding-left: 20px;
 }
 
 .logo img {
@@ -175,7 +176,8 @@ button:hover {
   padding-top: 150px;
 }
 .h4_index{
-  color: #333;
+  color: whitesmoke;
+  padding-left: 15px;
 }
 .form_cadastro{
   padding-top: 30px;
@@ -206,6 +208,8 @@ button:hover {
 
 .link_cadastro{
   text-decoration: none;
+  color: whitesmoke;
+  padding-right: 20px;
 }
 
 
@@ -222,4 +226,7 @@ button:hover {
 
 .meu-botao:hover {
   background-color: rgb(32, 32, 32);
+}
+.button_index{
+  padding-right: 20px;
 }
