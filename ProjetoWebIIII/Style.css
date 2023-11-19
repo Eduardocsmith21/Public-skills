@@ -1,0 +1,286 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Estilos para o cabeçalho */
+header {
+  background-color: #36BB0E;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para o logo e nome */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Estilos para os botões */
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  background-color: floralwhite;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para links de navegação */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*Estilização do carrusel*/
+.carousel-container {
+    width: 100%;
+    max-width: 750px; /* Defina a largura máxima desejada para o carrossel */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    max-height: 800px; /* Defina a altura máxima desejada para os slides */
+    min-height: 500px;
+    padding-top: 30px;
+    display: none;
+  }
+  
+  .carousel-slide.active {
+    display: block;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+
+  /*Estilização Oferecer*/
+
+  .body_cadastro {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.h1_cadastro {
+    text-align: center;
+    color: #333;
+    padding-top: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px green;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button_oferecer {
+    display: block;
+    width: 100%; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+  background-color: #36BB0E;
+}
+.form_oferecer{
+  padding-top: 150px;
+}
+.h4_index{
+  color: whitesmoke;
+  padding-left: 15px;
+}
+.form_cadastro{
+  padding-top: 30px;
+}
+
+
+/* Estilização para um botão verde e centralizado */
+.button-green {
+  display: block;
+  width: 150px; 
+  margin: 0 auto; 
+  background-color: #4CAF50; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center; 
+}
+
+.button-green:hover {
+  background-color: #45a049;
+}
+.center_cadastro{
+  padding-top: 50px;
+}
+
+.link_cadastro{
+  text-decoration: none;
+  color: whitesmoke;
+  padding-right: 20px;
+}
+
+
+/* Estilização para o botão */
+.meu-botao {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meu-botao:hover {
+  background-color: rgb(32, 32, 32);
+}
+.button_index{
+  padding-right: 20px;
+}
+
+/*Explorar*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  padding-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.h2_ex{
+  text-align: center;
+}
