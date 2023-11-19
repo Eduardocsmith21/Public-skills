@@ -1,0 +1,3 @@
+create table publicskills(nome varchar(30) not null, email varchar(40), senha varchar(10) not null, regiao varchar(30), categoria varchar(25), descricao varchar(300));
+use publicskills;
+select * from publicskills;
